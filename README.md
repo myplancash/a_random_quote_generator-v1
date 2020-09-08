@@ -2,6 +2,4 @@
 
 ###For this first project, you'll create an app that displays random famous quotes each time a button is clicked. You will select your own quotes from famous historical figures, artists, scientists, celebrities, etc... a
 
-![alt text][logo]
-
-[logo]: https://user-images.githubusercontent.com/64751892/92527261-5e023400-f1ec-11ea-8e03-55aeea967504.png "Random Quotes"
+<img width="1437" alt="screen" src="https://user-images.githubusercontent.com/64751892/92527742-1fb94480-f1ed-11ea-999a-49a5e86f15bf.png">
