@@ -131,7 +131,7 @@ const printQuote = () => {
   let randomQuote = getRandomQuote();
   let randomColor = getRandomColor();
   let html = `<p class='quote'> ${randomQuote.quote} </p>`;
-  html += `<span class='source'> ${randomQuote.source}</span>`;
+  html += `<p class='source'> ${randomQuote.source}</p>`;
 
   // tests to see if there is a citation property  in the currentQuote, if so, adds it to the string message
   if ("citation" in randomQuote) {
@@ -153,10 +153,10 @@ const printQuote = () => {
   // access the currentColor background property  to change the background color
   document.body.style.background = randomColor.background;
   // clears any previous timer interval and starts a new one
-  stopTimer();
-  startTimer();
 }
 
+stopTimer();
+startTimer();
 
 /***
  * click event listener for the print quote button
